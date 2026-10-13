@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#0f2a3b" />
+  <meta name="description" content="MLAI Government Grant Reporting — interactive demonstration of grant reporting features." />
+  <title>MLAI · Government Grant Reporting Platform</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app" class="app">
+    <aside class="sidebar" id="sidebar" aria-label="Primary navigation">
+      <div class="sidebar-brand">
+        <div class="brand-mark" aria-hidden="true"><span>m</span></div>
+        <div><div class="brand-name">MLAI<span class="brand-dot">.</span></div><div class="brand-sub">Grant Reporting</div></div>
+      </div>
+      <div class="sidebar-divider"></div>
+      <div class="sidebar-label">WORKSPACE</div>
+      <nav class="sidebar-nav" id="primaryNav"></nav>
+      <div class="sidebar-bottom">
+        <div class="workspace-chip"><span class="workspace-light"></span><div><strong>Reporting Workspace</strong><small>Government grants</small></div></div>
+        <div class="sidebar-disclaimer">Demo data only · No live MLAI connection</div>
+      </div>
+    </aside>
+    <div class="mobile-overlay" id="mobileOverlay"></div>
+    <div class="workspace">
+      <header class="topbar">
+        <div class="topbar-left"><button class="icon-button menu-toggle" id="menuToggle" aria-label="Toggle menu"></button><span class="breadcrumb-label">MLAI</span><span class="breadcrumb-slash">/</span><span class="breadcrumb-current" id="breadcrumb">Overview</span></div>
+        <div class="topbar-right"><span class="demo-status"><span class="demo-dot"></span> SAMPLE DATA</span><span class="topbar-divider"></span><div class="avatar" title="Demo reporting user">MU</div><span class="top-user">Reporting user</span></div>
+      </header>
+      <main class="main" id="content" tabindex="-1"></main>
+      <footer class="page-footer">Concept demonstration only. All grant records, figures, fields and access statuses are synthetic or unverified examples. No real MLAI records or government report submissions are connected.</footer>
+    </div>
+  </div>
+  <div id="modalRoot"></div>
+  <div id="toastRoot" aria-live="polite"></div>
+  <script src="app.js"></script>
+</body>
+</html>
