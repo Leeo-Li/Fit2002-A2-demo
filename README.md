@@ -14,9 +14,3 @@
 - Draft Report Preview with synthetic grant/period selector, generated summary and print view
 - Review Notes with demo-only local records
 
-## Academic integrity / limitations
-- All seeded records, access statuses, source descriptions, metrics and grant figures are illustrative only.
-- The user-facing website intentionally excludes Sprint Goal, Sprint Backlog and Acceptance Criteria. Present these separately in Canva/Trello.
-- No live MLAI connection, verified data provenance, client approval, real reporting submission or authentication.
-- Additions save to your own browser's localStorage, not to a shared server.
-- Funder-specific reporting requirements and data fields need validation against the actual project documents before making claims of completion.
